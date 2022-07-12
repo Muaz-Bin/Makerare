@@ -1,0 +1,186 @@
+@media (min-width: 1400px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    max-width: 1354px;
+  }
+}
+
+@media (max-width: 1400px) {
+}
+
+@media (max-width: 1250px) {
+  .hero-area {
+    padding-top: 350px;
+  }
+  .tag-area {
+    padding-bottom: 400px;
+  }
+}
+
+@media (max-width: 991px) {
+  .hero-area {
+    padding-top: 250px;
+  }
+  .hero-area h1 {
+    font-size: 98px;
+    line-height: 100px;
+  }
+  .tag-area a {
+    font-size: 30px;
+    line-height: 35px;
+    margin: 10px 24px;
+  }
+  .tag-area {
+    padding-bottom: 300px;
+  }
+
+  .feature-video .section-title h1,
+  .section-title h1 {
+    font-size: 98px;
+    line-height: 100px;
+  }
+  .feature-video {
+    padding-bottom: 80px;
+    padding-top: 0px;
+  }
+  .feature-video h1 {
+    font-size: 40px;
+    line-height: 45px;
+  }
+  .project-area .single-project p {
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .project-area .section-title {
+    margin-bottom: 80px;
+  }
+
+  .navbar-nav .nav-link {
+    font-size: 16px;
+    color: #fff !important;
+    text-align: center;
+    font-weight: 500;
+  }
+  .navbar .hamburger {
+    width: 22px;
+    height: 22px;
+    position: relative;
+    cursor: pointer;
+    display: block;
+  }
+  .navbar-toggler {
+    outline: none;
+    border: none;
+    box-shadow: none;
+  }
+  .navbar .hamburger span {
+    width: 100%;
+    height: 2px;
+    position: relative;
+    top: 0;
+    left: 0;
+    margin: 4px 0;
+    display: block;
+    background: #fff;
+    border-radius: 3px;
+    -webkit-transition: 0.2s ease-in-out;
+    transition: 0.2s ease-in-out;
+    transition-delay: 0s;
+  }
+}
+
+@media (max-width: 767px) {
+  .hero-area h1,
+  .feature-video .section-title h1,
+  .section-title h1,
+  .section-title h1 {
+    font-size: 80px;
+    line-height: 85px;
+  }
+  .hero-area {
+    padding-top: 200px;
+  }
+  .hero-area p {
+    font-size: 20px;
+  }
+  .feature-area h1 {
+    font-size: 45px;
+    line-height: 45px;
+  }
+  .feature-video h1 {
+    font-size: 30px;
+    line-height: 35px;
+  }
+  footer {
+    padding-top: 125px;
+    padding-bottom: 45px;
+  }
+  .feature-video .feature-vid {
+    top: -70px;
+  }
+}
+
+@media (max-width: 565px) {
+  .hero-area h1,
+  .feature-video .section-title h1,
+  .section-title h1,
+  .section-title h1 {
+    font-size: 55px;
+    line-height: 65px;
+  }
+  .hero-area {
+    padding-top: 160px;
+  }
+  .hero-area .hero-vid {
+    bottom: inherit;
+    top: -50px;
+  }
+  .tag-area {
+    padding-bottom: 214px;
+    padding-top: 160px;
+  }
+  .feature-area .feature-gap {
+    margin-bottom: 70px;
+  }
+  .feature-area h1 {
+    font-size: 28px;
+    line-height: 32px;
+    text-align: center;
+  }
+  .feature-video h1 {
+    text-align: center;
+    font-size: 25px;
+    line-height: 30px;
+  }
+  .feature-area .glow-shape {
+    height: 100px;
+    width: 100%;
+    filter: blur(80px);
+  }
+  footer a {
+    font-size: 30px;
+  }
+  .navbar .navbar-brand img {
+    max-width: 100px;
+  }
+  .slider-area img {
+    margin: 0 5px;
+  }
+  .slider-area {
+    padding-bottom: 100px;
+  }
+}
+
+@media (max-width: 400px) {
+  .hero-area h1,
+  .feature-video .section-title h1,
+  .section-title h1,
+  .section-title h1 {
+    font-size: 50px;
+    line-height: 55px;
+  }
+}
